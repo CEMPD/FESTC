@@ -20,11 +20,29 @@ public class Constants {
 	public static final String SA_SETUP_FILE = "/bin/sa_setup.csh";
 	public static final String EPIC_HOME = "epic.home";
 	public static final String QUEUE_NAME = "queue.name";
-	public static final String QUEUE_BMEM = "queue.bigmem";
+//	public static final String QUEUE_BMEM = "queue.bigmem";
 	//public static final String QUEUE_PRELOG = "queue.prelog";
 	public static final String QUEUE_OPT = "queue.option";
 	public static final String QUEUE_CMD = "queue.cmd";
+	public static final String QUEUE_SINGULARITY_MODULE = "queue.singularitymodule";
+	public static final String QUEUE_SINGULARITY_IMAGE = "queue.singularityimage";
+	public static final String QUEUE_SINGULARITY_BIND = "queue.singularitybind";
+	
+	public static final String QUEUE_BELD4_CMD = "queue.beld4";
+	public static final String QUEUE_SITE_INFO = "queue.siteinfo";
+	public static final String QUEUE_MC2EPIC = "queue.mc2epic";
+	public static final String QUEUE_EPIC_SITE = "queue.epicsite";
+	public static final String QUEUE_SOIL_MATCH = "queue.soilmatch";
+	public static final String QUEUE_MAN_SPINUP = "queue.manspinup";
+	public static final String QUEUE_EPIC_SPINUP = "queue.epicspinup";
+	public static final String QUEUE_MAN_APP = "queue.manapp";
+	public static final String QUEUE_EPIC_APP = "queue.epicapp";
+	public static final String QUEUE_YEARLY_EXT = "queue.yearlyext";
+	public static final String QUEUE_EPIC2CMAQ = "queue.epic2cmaq";
+	public static final String QUEUE_EPIC2SWAT = "queue.epic2swat";
+	
 	public static final String WORK_DIR = "work.dir";
+	public static final String EPIC_VER = "epic.ver";
 	public static final String USER_HOME = "user.home";
 	public static final String LINE_SEPARATOR = "line.separator";
 	public static final String NEW_SCENARIO = "Create";
@@ -44,7 +62,7 @@ public class Constants {
 	public static final String SOIL_MATCH = "Soil Match for EPIC Spinup";
 	public static final String MAN_SPINUP = "Management File Generation for Spinup";
 	public static final String EDIT_INFILES = "View/Edit EPIC Inputs";
-	public static final String[] FERTYEARS = new String[] {"2001", "2006"};
+	public static final String[] FERTYEARS = new String[] {"2001", "2006", "2011"};
 	public static final String[] NLCDYEARS = new String[] {"2001", "2006", "2011"};
 	public static final String[] NDEPS = new String[] {"CMAQ", "EPIC parameter input file", 
 		                               "2002-2006 5-year CMAQ average",
